@@ -75,7 +75,10 @@ body{
     margin: 0 0 128px;
 }
 .about-timeline{
-    flex: 2;
+    flex: 1;
+}
+p{
+    justify-content: center;
 }
 .dash{
     display: inline-block;
