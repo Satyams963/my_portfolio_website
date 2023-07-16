@@ -7,31 +7,25 @@
     --color6: #fefefe; /* white color */
     --color7: #afafaf; /* gray color */
 }
+
 body{
     font-family: 'Josefin Sans', sans-serif;
 }
+
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
-.text-red{
-    color:var(--color1);
-}
-.btn{
-    text-decoration: none;
-    color: var(--color5);
-    background-color: var(--color1);
-    padding: 16px 32px;
-    font-size: 19.2px;
-}
+
 .header{
     background-color: var(--color6);
     display: flex;
     flex-direction: column;
-    font-size: larger;
-    padding:20px 50px;
+    padding: 10px;
 }
-.main-navbar {
+
+.main-navbar{
     display: flex;
     justify-content: space-between;
     font-size: 20.8px;
@@ -39,50 +33,66 @@ body{
     box-sizing: border-box;
     padding: 32px 0px;
 }
+
+.text-red{
+    color:var(--color1);
+}
+
 .navbar ul {
     display: flex;
     list-style: none;
     margin: 0;
 }
+
 .navbar ul li{
     margin-left:36px;
 }
-.header-hero {
+
+.header-hero{
     display: flex;
-    padding: 128px 0 0 0;
-    box-sizing: border-box;
-    font-size: 20.8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-}
-.hero-img{
-    flex:1;
-}
 .hero-description{
-    flex:1;
-    margin:auto;
-    font-size: larger;
+    font-size:larger;
+    flex: 1;
+}
 
+.hero-image{
+    flex: 1;
+    margin: 15px;
 }
-.hero-img img{
-    width:100%;
+img{
+    height: 200px;
+    width: 360px;
 }
+
+.btn{
+    text-decoration: none;
+    color: var(--color5);
+    background-color: var(--color1);
+    box-sizing: border-box;
+    padding: 5px 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
 .about{
     background-color: var(--color2);
-    display: flex;
     font-size: 20.8px;
-    padding:20px 50px;
+    padding:10px;
     
 }
+
 .about-description{
-    flex: 1;
     padding: 32px;
     margin: 0 0 128px;
 }
-.about-timeline{
-    flex: 1;
-}
+
 p{
     justify-content: center;
+    font-size: 16px;
 }
 .dash{
     display: inline-block;
@@ -99,34 +109,31 @@ p{
     margin-right: 10px;
 }
 .work{
-    padding: 120px 0;
-    display: flex;
+    padding: 10px;
     font-size: 20.8px;
-    flex-direction: column;
-    padding:20px 50px;
 }
-.work-content{
-    display: flex;
+
+.article-list ul li{
+    font-size: 13px;
 }
-.projects{
-    flex: 1;
-}
-.articles{
-    flex: 1;
-}
+
 .connect{
     background-color: var(--color2);
     display: flex;
-    padding: 120px 50px;
+    padding: 10px;
     flex-direction: column;
     font-size: 20.8px;
 }
+
 .connect-social-links{
-    padding: 60px 0;
+    padding: 30px 0;
 }
+
 .connect-email{
-    padding: 60px 0;
+    padding: 30px 0;
 }
+
 .footer{
-    padding: 80px 0 0 0;
+    padding: 40px 0 0 0;
 }
+
