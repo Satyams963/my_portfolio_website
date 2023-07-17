@@ -23,6 +23,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 10px;
+
 }
 
 .main-navbar{
@@ -50,32 +51,34 @@ body{
 
 .header-hero{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
+
 }
 
 .hero-description{
     font-size:larger;
-    flex: 1;
+    padding: 60px;
 }
 
 .hero-image{
-    flex: 1;
     margin: 15px;
 }
 img{
-    height: 200px;
-    width: 360px;
+    height: 280px;
+    width: 460px;
 }
 
 .btn{
     text-decoration: none;
-    color: var(--color5);
-    background-color: var(--color1);
+    background-color: rgb(169, 59, 59);
+    color:whitesmoke;
     box-sizing: border-box;
+    margin: 20px 0px;
     padding: 5px 5px;
-    font-size: 16px;
-    border-radius: 5px;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .about{
@@ -90,7 +93,8 @@ img{
     margin: 0 0 128px;
 }
 
-p{
+p{  
+    margin: 10px;
     justify-content: center;
     font-size: 16px;
 }
@@ -108,13 +112,53 @@ p{
     background-color: var(--color1);
     margin-right: 10px;
 }
+
+.linkBox{
+    margin: 10px 50px;
+}
+
 .work{
     padding: 10px;
     font-size: 20.8px;
 }
 
-.article-list ul li{
-    font-size: 13px;
+.projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.proBox{
+    height: 350px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 5px 6px;
+    margin: 10px;
+    border-radius: 20px;
+    background: beige;
+    box-shadow: 3px 3px 3px var(--color1);
+    transition: all 0.5s linear 0s;
+}
+
+.proBox:hover{
+    transform: scale(1.1);
+}
+
+h4{
+    color: blue;
+    font-style: italic;
+    border-bottom: 2px solid black;
+}
+
+.proBox ul{
+    list-style: none;
+    margin: 8px 0px;
+}
+
+.proBox ul li{
+    font-size: medium;
+    margin: 5px 0px;
 }
 
 .connect{
