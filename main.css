@@ -112,6 +112,10 @@ p{
     background-color: var(--color1);
     margin-right: 10px;
 }
+.certi_images{
+    padding: 20px;
+    direction: flex;
+}
 
 .linkBox{
     margin: 10px 50px;
