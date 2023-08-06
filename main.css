@@ -1,11 +1,12 @@
 :root {
     --color1: #dd404d; /* red */
-    --color2: #ffeae6; /* light crimson */
+    --color2: #eeeae6; /* light crimson */
     --color3: #06061a; /* dark purple */
     --color4: #191936; /* light purple */
     --color5: #000000; /* black color */
     --color6: #fefefe; /* white color */
     --color7: #afafaf; /* gray color */
+    
 }
 
 body{
@@ -82,7 +83,8 @@ img{
 }
 
 .about{
-    background-color: var(--color2);
+    background: rgb(134, 104, 153);
+    background: linear-gradient(90deg, rgba(131,58,180,0.5) 0%, rgba(247,80,3,0.5) 92%, rgba(252,96,69,0.5) 92%);;
     font-size: 20.8px;
     padding:10px;
     
@@ -114,7 +116,13 @@ p{
 }
 .certi_images{
     padding: 20px;
-    direction: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.certi_images img{
+    padding: 20px;
 }
 
 .linkBox{
@@ -166,7 +174,8 @@ h4{
 }
 
 .connect{
-    background-color: var(--color2);
+    background: rgb(134, 104, 153);
+    background: linear-gradient(90deg, rgba(131,58,180,0.5) 0%, rgba(247,80,3,0.5) 92%, rgba(252,96,69,0.5) 92%);;
     display: flex;
     padding: 10px;
     flex-direction: column;
